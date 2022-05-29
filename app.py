@@ -8,7 +8,7 @@ from PIL import Image
 pickle_in= open('diabetes.pkl','rb')
 classifier= pickle.load(pickle_in)
 
-st.header('** Welcome to the Diabetes Prediction App **')
+st.header(""" Welcome to the Diabetes Prediction App """)
 st.subheader(" THIS APP HELPS IN PREDICTING IF A PERSON HAS DIABETES OR NOT USING MACHINE LEARNING TECHNIQUES")
 
 image = Image.open('diabetes.png')
