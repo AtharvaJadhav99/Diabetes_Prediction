@@ -15,7 +15,8 @@ image = Image.open('diabetes.png')
 st.image(image, use_column_width='auto')
 
 st.sidebar.header('Inputs Selected by the User')
-
+st.sidebar.write(' For getting your lab reports, user may refer the following link to search the nearest diagnostic center for getting their reports https://www.diagnosticcentres.in/home/search/')  
+		     
 name = st.sidebar.text_input("Name:")
 Pregnancies= st.sidebar.slider('Pregnancies', 0,10 ,3)
 Glucose= st.sidebar.slider('Glucose', 0,199,120)
