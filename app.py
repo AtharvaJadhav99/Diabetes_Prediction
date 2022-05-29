@@ -39,7 +39,7 @@ st.write(features)
 st.subheader("""Prediction """)
 prediction = classifier.predict([[Pregnancies, Glucose, BloodPressure,Insulin,BMI,Age]])
 if(prediction == 0):
-	st.write('""" Congratulation,',name,'you do not show any signs of having diabetes """)
+	st.write('""" Congratulation,""",name,"""you do not show any signs of having diabetes """)
 else:
       st.write( """ Sorry,""",name,"""It seems that there is a high chance of you being Diabetic. It is highly advisible to contact your doctor to know more about the disease and the further course of treatment """)
       st.write(" To know more about the symptoms and causes of diabetes refer the following link: https://www.healthline.com/health/diabetes#symptoms")
