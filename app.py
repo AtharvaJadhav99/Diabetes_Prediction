@@ -36,11 +36,11 @@ features = pd.DataFrame(data, index=[0])
 st.write(features)
 
      
-st.subheader('** Prediction **')
+st.subheader("""Prediction """)
 prediction = classifier.predict([[Pregnancies, Glucose, BloodPressure,Insulin,BMI,Age]])
 if(prediction == 0):
-	st.write('** Congratulation,',name,'you do not show any signs of having diabetes **')
+	st.write('""" Congratulation,',name,'you do not show any signs of having diabetes """)
 else:
-      st.write( '** Sorry,',name,'It seems that there is a high chance of you being Diabetic. It is highly advisible to contact your doctor to know more about the disease and the further course of treatment. **')
+      st.write( """ Sorry,',name,'It seems that there is a high chance of you being Diabetic. It is highly advisible to contact your doctor to know more about the disease and the further course of treatment """)
       st.write(" To know more about the symptoms and causes of diabetes refer the following link: https://www.healthline.com/health/diabetes#symptoms")
       st.write(" To Book a Doctor's Appointment refer the following link: https://www.practo.com/search/doctors?results_type=doctor&q=%5B%7B%22word%22%3A%22diabetes%20doctor%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22common_name%22%7D%5D&city=Pune")
