@@ -41,9 +41,3 @@ Diabetes pedigree function
 Age (years)
 
 Output to Predict: Class variable (0 or 1)
-## Deployment
-
-The following project has been made with the help of Streamlit and has been deployed on the
-Streamlit cloud platform.
-
-Web app url : https://share.streamlit.io/atharvajadhav99/diabetes_prediction/app.py
